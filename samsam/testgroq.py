@@ -15,7 +15,7 @@ def load_pdf_text(path):
         text += ptxt + "\n"
     return text
 
-pdf_text = load_pdf_text("/Users/samanthavincent/Downloads/cse_notes.pdf")
+pdf_text = load_pdf_text("cse_notes.pdf")
 print("PDF loaded. Characters:", len(pdf_text))
 
 # ---------- Chunking ----------
